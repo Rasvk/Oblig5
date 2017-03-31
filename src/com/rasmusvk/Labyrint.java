@@ -49,6 +49,7 @@ public class Labyrint {
         }
         Labyrint l = new Labyrint(lab, rad, kolonne);
         l.setRuteInstanseVariabler(l);
+        l.toString();
         sc.close();
         return l;
     }
@@ -117,5 +118,14 @@ public class Labyrint {
         if (kolonne < kolonner-1 && !(l[rad][kolonne + 1] instanceof SortRute)) {
             r.setOst(l[rad][kolonne + 1]);
         }
+    }
+
+    public void settMinimalUtskrift(){
+
+    }
+
+    public String finnUtveiFra(int kol, int rad) {
+        String s = "Hei";
+        return s;
     }
 }
